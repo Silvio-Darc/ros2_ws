@@ -1,0 +1,52 @@
+[0.010s] Invoking command in '/home/aluno/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/aluno/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/aluno/ros2_ws/install/my_cpp_pkg
+[0.049s] -- The C compiler identification is GNU 13.3.0
+[0.090s] -- The CXX compiler identification is GNU 13.3.0
+[0.101s] -- Detecting C compiler ABI info
+[0.158s] -- Detecting C compiler ABI info - done
+[0.166s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.167s] -- Detecting C compile features
+[0.167s] -- Detecting C compile features - done
+[0.173s] -- Detecting CXX compiler ABI info
+[0.239s] -- Detecting CXX compiler ABI info - done
+[0.248s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.248s] -- Detecting CXX compile features
+[0.248s] -- Detecting CXX compile features - done
+[0.250s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.358s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.431s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.459s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.469s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.481s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.495s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.559s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.561s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.612s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.627s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.645s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.714s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.792s] -- Added test 'lint_cmake' to check CMake code style
+[0.793s] -- Added test 'xmllint' to check XML markup files
+[0.794s] -- Configuring done (0.8s)
+[0.796s] -- Generating done (0.0s)
+[0.798s] -- Build files have been written to: /home/aluno/ros2_ws/build/my_cpp_pkg
+[0.805s] Invoked command in '/home/aluno/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/aluno/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/aluno/ros2_ws/install/my_cpp_pkg
+[0.807s] Invoking command in '/home/aluno/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/aluno/ros2_ws/build/my_cpp_pkg -- -j6 -l6
+[0.835s] Invoked command in '/home/aluno/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/aluno/ros2_ws/build/my_cpp_pkg -- -j6 -l6
+[0.842s] Invoking command in '/home/aluno/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/aluno/ros2_ws/build/my_cpp_pkg
+[0.848s] -- Install configuration: ""
+[0.848s] -- Installing: /home/aluno/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[0.848s] -- Installing: /home/aluno/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[0.848s] -- Installing: /home/aluno/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[0.848s] -- Installing: /home/aluno/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[0.848s] -- Installing: /home/aluno/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[0.848s] -- Installing: /home/aluno/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[0.848s] -- Installing: /home/aluno/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[0.849s] -- Installing: /home/aluno/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[0.849s] -- Installing: /home/aluno/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[0.849s] -- Installing: /home/aluno/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[0.849s] -- Installing: /home/aluno/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[0.849s] -- Installing: /home/aluno/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[0.849s] -- Installing: /home/aluno/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[0.849s] -- Installing: /home/aluno/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[0.849s] -- Installing: /home/aluno/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[0.851s] Invoked command in '/home/aluno/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/aluno/ros2_ws/build/my_cpp_pkg
