@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aluno/ros2_ws/src/my_robot_description
+CMAKE_SOURCE_DIR = /home/silvd/ros2_ws/src/my_robot_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/aluno/ros2_ws/build/my_robot_description
+CMAKE_BINARY_DIR = /home/silvd/ros2_ws/build/my_robot_description
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/aluno/ros2_ws/build/my_robot_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aluno/ros2_ws/src/my_robot_description /home/aluno/ros2_ws/src/my_robot_description /home/aluno/ros2_ws/build/my_robot_description /home/aluno/ros2_ws/build/my_robot_description /home/aluno/ros2_ws/build/my_robot_description/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/silvd/ros2_ws/build/my_robot_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/silvd/ros2_ws/src/my_robot_description /home/silvd/ros2_ws/src/my_robot_description /home/silvd/ros2_ws/build/my_robot_description /home/silvd/ros2_ws/build/my_robot_description /home/silvd/ros2_ws/build/my_robot_description/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/uninstall.dir/depend
 
